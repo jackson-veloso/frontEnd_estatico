@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .container-header {
+        background-color: aqua;
+        height: 25px;
+        width: 70%;
+        display: flex;
+        border-radius: 0px 0px 25px 0px;
+
+    }
+
+    #img-01 {
+        max-width: 170px;
+    }
+
+    @media (max-width: 575px){
+        #teste {
+            text-align: center;
+        }
+
+        #column-01 {
+            text-align: center;
+        }
+
+        #img-01 {
+            max-width: 135px;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="container-header">
+        </div>
+        <div class="container" style="margin-top: 5px; margin-bottom: 15px;">
+            <div class="row align-items-start" id="row-01">
+                <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2" id="column-01">
+                    <img class="img-thumbnail" id="img-01" src="img/fotoPerfil.jpeg"
+                        alt="foto de perfil"
+                        style="border-radius: 130px; border-color: aqua; ">
+                </div>
+                <div class="col-12 col-sm-6 col-md-9 col-lg-9 col-xl-10" id="teste">
+                    <h1>Jackson Veloso</h1>
+                    <h5>Analista de QA</h5>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <div class="container" style="background-color: aqua; padding: 1px; width: 90%;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="container">
+                    Uma de três colunas
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="container">
+
+                    Uma de três colunas
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2023 - Todos os direitos reservados</p>
+    </footer> -->
+</body>
+
+</html>
