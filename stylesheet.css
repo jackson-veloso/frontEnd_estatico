@@ -1,0 +1,54 @@
+.black {
+    color: black;
+}
+.container-header {
+    background-color: aqua;
+    height: 25px;
+    width: 70%;
+    display: flex;
+    border-radius: 0px 0px 25px 0px;
+
+}
+
+.containerColumn {
+    padding: 10px;
+}
+
+.textJustificado {
+    text-align: justify;
+}
+
+.footer {
+    text-align: center; 
+    background-color: aqua;
+}
+#containerHeader {
+    margin-top: 5px; 
+    margin-bottom: 15px;
+}
+
+#img-01 {
+    max-width: 170px;
+    border-radius: 130px; 
+    border-color: aqua;
+}
+
+#container-02 {
+   background-color: aqua; 
+   padding: 1px; 
+   width: 70%; 
+}
+
+@media (max-width: 575px) {
+    .textCenter {
+        text-align: center;
+    }
+
+    #column-01 {
+        text-align: center;
+    }
+
+    #img-01 {
+        max-width: 135px;
+    }
+}
