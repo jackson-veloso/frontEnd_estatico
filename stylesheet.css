@@ -49,7 +49,7 @@
     border-right: 2px solid aqua;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 991px) {
     .textCenter {
         text-align: center;
     }
